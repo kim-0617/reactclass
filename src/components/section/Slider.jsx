@@ -11,9 +11,9 @@ import "swiper/css/pagination";
 // import required modules
 import { Autoplay, Navigation, Pagination } from "swiper";
 
-function Slider() {
+function Slider({ fonts }) {
     return (
-        <div className="slider__inner">
+        <section className={`slider__inner ${fonts}`}>
             <Swiper
                 pagination={true}
                 navigation={true}
@@ -63,7 +63,7 @@ function Slider() {
                     </div>
                 </SwiperSlide>
             </Swiper>
-        </div>
+        </section>
     );
 }
 export default Slider;
