@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Autoplay, Navigation, Pagination } from "swiper";
 
-function Slider({ fonts }) {
+function Slider2({ fonts }) {
     return (
         <section className={`slider__inner ${fonts}`}>
             <Swiper
@@ -24,41 +24,41 @@ function Slider({ fonts }) {
                 modules={[Pagination, Navigation, Autoplay]}
                 className="mySwiper">
                 <SwiperSlide>
-                    <div class="desc">
+                    <div className="desc">
                         <span>ARTIST</span>
                         <h3>COLOR'S POWER</h3>
                         <p>
                             색은 많은 의미를 내포하고 있습니다. <br /> 함께 배워보시죠!
                         </p>
-                        <div class="btn">
+                        <div className="btn">
                             <a href="/">자세히 보기</a>
-                            <a href="/" class="black">정보 보기</a>
+                            <a href="/" className="black">정보 보기</a>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div class="desc">
+                    <div className="desc">
                         <span>ARTIST</span>
                         <h3>COLOR'S POWER</h3>
                         <p>
                             색은 많은 의미를 내포하고 있습니다. <br /> 함께 배워보시죠!
                         </p>
-                        <div class="btn">
+                        <div className="btn">
                             <a href="/">자세히 보기</a>
-                            <a href="/" class="black">정보 보기</a>
+                            <a href="/" className="black">정보 보기</a>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div class="desc">
+                    <div className="desc">
                         <span>ARTIST</span>
                         <h3>COLOR'S POWER</h3>
                         <p>
                             색은 많은 의미를 내포하고 있습니다. <br /> 함께 배워보시죠!
                         </p>
-                        <div class="btn">
+                        <div className="btn">
                             <a href="/">자세히 보기</a>
-                            <a href="/" class="black">정보 보기</a>
+                            <a href="/" className="black">정보 보기</a>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -66,4 +66,4 @@ function Slider({ fonts }) {
         </section>
     );
 }
-export default Slider;
+export default Slider2;
