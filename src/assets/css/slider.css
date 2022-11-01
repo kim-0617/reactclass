@@ -20,6 +20,7 @@
     width: 1160px;
     margin: 0 auto;
     padding: 100px 20px;
+    white-space: pre-wrap;
 }
 
 .slider__img .desc span {
@@ -164,7 +165,12 @@
 .swiper-button-prev {
     width: 30px !important;
     height: 56px !important;
+    right: 35px !important;
     background-image: url(../img/slider_icon.svg);
+}
+
+.swiper-button-prev {
+    left: 15px !important;
 }
 
 .swiper-button-next {
